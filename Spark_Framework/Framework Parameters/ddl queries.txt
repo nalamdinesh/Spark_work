@@ -1,0 +1,11 @@
+create table DIM_Airport_Pair as
+select row_number() over() as AIRPORTPAIR_KEY, AIRPORTPAIR, SEGMENTPAIR from finair_master_test;
+
+create table DIM_carrier_Pair as
+select row_number() over() as Carrier_Key, CARRIER from finair_master_test;
+
+create table DIM_BKG_CLASS as
+select row_number() over() as BKG_CLASS_KEY, BOOKINGCLASS from finair_master_test;
+
+create table DIM_FLIGHT_DIM as
+select row_number() over() as Flight_KEY, CARRIER,FLIGHTNUMBER1 from finair_master_test;

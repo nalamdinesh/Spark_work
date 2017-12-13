@@ -1,0 +1,8 @@
+Data validationplushiveload
+
+spark-submit --class com.main.DataValidationPlusHiveLoad --deploy-mode client --master local --driver-memory 1G --executor-memory 1G /home/cloudera/Desktop/spark_jars/sparke2e.jar /user/cloudera/finair_testing/params /user/cloudera/finair_testing/finair_data /user/cloudera/finair_testing/datatypemismatch /user/cloudera/finair_testing/invalidrecords
+
+Data transformation
+
+spark-submit --class main.java.com.main.SparkHqlWrapper --deploy-mode client --master local --driver-memory 2G --executor-memory 2G /home/cloudera/Desktop/spark_jars/sparke2e.jar /user/cloudera/finair_testing/params/params.csv
+

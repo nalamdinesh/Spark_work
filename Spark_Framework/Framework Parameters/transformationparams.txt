@@ -1,0 +1,2 @@
+1,Y,N,N,temp1,/user/cloudera/finair_testing/1.hql
+2,N,N,N,,/user/cloudera/finair_testing/2.hql
